@@ -111,7 +111,7 @@ p img {
   vertical-align: top;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 812px) {
   #page {
     width: 100%;
   }
@@ -125,6 +125,7 @@ p img {
     width: 99%;
     margin-left: 0px;
     padding-bottom: 0px;
+    font-size: 1.2rem;
   }
 }
 

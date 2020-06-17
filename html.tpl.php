@@ -48,15 +48,8 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
-  <style type="text/css" media="all">@import url("http://elisteincartoons.com/sites/all/modules/ckeditor/ckeditor.css");</style>
+  <style type="text/css" media="all">@import url("https://elisteincartoons.com/sites/all/modules/ckeditor/css/ckeditor.css");</style>
   <?php print $scripts; ?>
-  <script type="text/javascript">
-     (function($) {
-        $(document).ready(function() {
-           $(".column").corner("cc:#FFC160 round 10px");
-        });
-     })(jQuery);
-  </script>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
